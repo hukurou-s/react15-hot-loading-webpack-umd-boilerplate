@@ -1,11 +1,13 @@
 import React from 'react'
+import Comment from './Comment';
 
 export default class CommentList extends React.Component{
     render() {
 	return (
-		<dev className="commentList">
-		"Hellow World ! I am a CommentList."
-	    </dev>
-	)
+	   <div className="commentList">
+		<Comment author="Pete Hunt">This is one comment</Comment>
+		<Comment author="Jordan Walke">This is *author* comment</Comment>
+	    </div>
+	);
     }
 }
