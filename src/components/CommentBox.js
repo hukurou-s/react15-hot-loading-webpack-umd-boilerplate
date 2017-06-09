@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default class CommentBox extends React.Component{
+export default class CommentBox extends React.Component{    
     render() {
 	return (
 		<dev className="commentBox">
